@@ -1,0 +1,252 @@
+.App {
+  text-align: center;
+}
+
+html,
+body,
+.full-height {
+  height: 100%;
+}
+
+.joinRoomBtn {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 20%;
+}
+
+video {
+  width: 100%!important;
+}
+
+.local-participant {
+  width: 60%;
+  align-content: center;
+}
+
+.videoChatView {
+  padding: 2% ;
+}
+
+.headerRoom {
+  margin: auto;
+  text-align: center;
+}
+
+.mainContent {
+  padding: 5% 15% 5% 15%;
+  height: 94%;
+}
+
+.historyTable {
+  padding: 5% !important;
+}
+
+.logoutBtn{
+  float: right;
+}
+.menuMarginRight {
+  margin-right: 15%;
+}
+
+.mainRow {
+  margin-top: 2%;
+}
+.background-image {
+  background-image: url("assets/images/login-image.jpg");
+  opacity: 0.8;
+}
+
+.searchDocumentation {
+  padding-right: 13%!important;
+}
+
+.chatbox {
+  float: right;
+  margin-right: 30%;
+}
+.titleOfMain {
+  padding-left: 15%;
+  font-weight: bold;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.waveform {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.general-wf {
+  height: 100%;
+}
+
+.general-wf > wave {
+  height: 100% !important;
+}
+
+.waveform-preview {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.p2 {
+  padding: 2%;
+}
+
+.controls {
+  float:left;
+  margin-left: 40%;
+  margin-right: 40%;
+  width: 40px;
+  margin-bottom: 2%;
+}
+
+
+.centerAlign {
+  text-align: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mainCard {
+  height: 100%;
+}
+
+.subCard {
+  height: 33%;
+  margin-bottom: 2%;
+}
+
+#audioDropzone {
+  margin: 5%;
+  border-radius: 0.5em;
+}
+
+.uploadBtnGroup {
+  display: flex !important;
+  margin-top: 2%;
+
+}
+
+.uploadBtn {
+  flex: 1 !important;
+}
+
+.container {
+  padding-top: 15px;
+  margin-top: initial;
+}
+
+.mainCard {
+  border-radius: 1rem !important;
+}
+
+.topAlert {
+  position: fixed !important;
+  top: 7.4rem;
+  left: 0;
+  margin-left: 15%;
+  width: 70%;
+}
+.musicControlBtn {
+  margin-top: 35%;
+}
+
+.transcriptTableActive {
+  background-color: #aaceef !important;
+}
+
+.wavesurfer-tier-Text {
+  white-space: pre-wrap !important;
+  font-size: 1rem !important;
+}
+
+.wavesurfer-time {
+  font-size: 1rem !important;
+}
+
+.wavesurfer-annotations {
+  margin-top: 2%;
+}
+
+region {
+  border-radius: 15px;
+}
+
+.waveform {
+  margin-top: 2.7%;
+  margin-bottom: 2.7%;
+}
+
+.analysisWrapper {
+  padding: 2%;
+}
+
+#analysisData {
+  margin-top: 2%;
+}
+
+.statusCol {
+  text-align: center;
+}
+
+.statusRow {
+  margin-bottom: 2%;
+}
+
+.generateButton {
+  margin-top: 1%;
+}
+
+.graph-canvas {
+  margin-top: 2%;
+}
+
+.testTypeBG, .testTypeSpeaker {
+  margin-top: 2%;
+  display: flex !important;
+}
+
+.testTypeBG > button, .testTypeSpeaker > button {
+  flex: 1 !important;
+}
+
+.flexEnd {
+  align-self: flex-end;
+}
